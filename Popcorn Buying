@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,y,a;
+	cin >> x ;
+	y=(x-100);
+	a=y/50;
+	if(a<1){
+	    cout <<"0" ;
+	}
+	else {
+	    cout <<a;
+	}
+}
