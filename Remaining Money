@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n,a,b,z;
+	cin >> n >>a >>b;
+	z=n-(a*b);
+	cout << z;
+
+}
